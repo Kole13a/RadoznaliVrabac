@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #B5C18E;
+}
+.inputClass{
+    background: #F1F1F1;
+    border-color: #C7B7A3;
+}
+.btnClass{
+    background: #EADBC8;
+    border-color: #C7B7A3;
+
+}
+.btnClass:hover{
+    background: #C7B7A3;
+    border-color: #EADBC8;
+    
+}
+.scrollable-div {
+    max-height: 400px;
+    overflow-y: auto;
+}
+.todo-item {
+    cursor: pointer;
+}
+.description-container {
+    max-height: 5em;
+    overflow-y: auto; 
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal; 
+}
+
+.description-container p {
+    margin-bottom: 0;
+}
